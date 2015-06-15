@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6332F59D1B2F168900785370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332F59C1B2F168900785370 /* AppDelegate.swift */; };
+		6332F59F1B2F168900785370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332F59E1B2F168900785370 /* ViewController.swift */; };
+		6332F5A21B2F168900785370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6332F5A01B2F168900785370 /* Main.storyboard */; };
+		6332F5A51B2F168900785370 /* Destiny_Status_Monitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6332F5A31B2F168900785370 /* Destiny_Status_Monitor.xcdatamodeld */; };
+		6332F5A71B2F168900785370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6332F5A61B2F168900785370 /* Assets.xcassets */; };
+		6332F5AA1B2F168900785370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6332F5A81B2F168900785370 /* LaunchScreen.storyboard */; };
+		6332F5B51B2F168900785370 /* Destiny_Status_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332F5B41B2F168900785370 /* Destiny_Status_MonitorTests.swift */; };
+		6332F5C01B2F168900785370 /* Destiny_Status_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6332F5BF1B2F168900785370 /* Destiny_Status_MonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6332F5B11B2F168900785370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6332F5911B2F168900785370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6332F5981B2F168900785370;
+			remoteInfo = "Destiny Status Monitor";
+		};
+		6332F5BC1B2F168900785370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6332F5911B2F168900785370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6332F5981B2F168900785370;
+			remoteInfo = "Destiny Status Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6332F5991B2F168900785370 /* Destiny Status Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destiny Status Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6332F59C1B2F168900785370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6332F59E1B2F168900785370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6332F5A11B2F168900785370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6332F5A41B2F168900785370 /* Destiny_Status_Monitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Destiny_Status_Monitor.xcdatamodel; sourceTree = "<group>"; };
+		6332F5A61B2F168900785370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6332F5A91B2F168900785370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6332F5AB1B2F168900785370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6332F5B01B2F168900785370 /* Destiny Status MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Destiny Status MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6332F5B41B2F168900785370 /* Destiny_Status_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny_Status_MonitorTests.swift; sourceTree = "<group>"; };
+		6332F5B61B2F168900785370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6332F5BB1B2F168900785370 /* Destiny Status MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Destiny Status MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6332F5BF1B2F168900785370 /* Destiny_Status_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny_Status_MonitorUITests.swift; sourceTree = "<group>"; };
+		6332F5C11B2F168900785370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6332F5961B2F168900785370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332F5AD1B2F168900785370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332F5B81B2F168900785370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6332F5901B2F168900785370 = {
+			isa = PBXGroup;
+			children = (
+				6332F59B1B2F168900785370 /* Destiny Status Monitor */,
+				6332F5B31B2F168900785370 /* Destiny Status MonitorTests */,
+				6332F5BE1B2F168900785370 /* Destiny Status MonitorUITests */,
+				6332F59A1B2F168900785370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6332F59A1B2F168900785370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6332F5991B2F168900785370 /* Destiny Status Monitor.app */,
+				6332F5B01B2F168900785370 /* Destiny Status MonitorTests.xctest */,
+				6332F5BB1B2F168900785370 /* Destiny Status MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6332F59B1B2F168900785370 /* Destiny Status Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				6332F59C1B2F168900785370 /* AppDelegate.swift */,
+				6332F59E1B2F168900785370 /* ViewController.swift */,
+				6332F5A01B2F168900785370 /* Main.storyboard */,
+				6332F5A61B2F168900785370 /* Assets.xcassets */,
+				6332F5A81B2F168900785370 /* LaunchScreen.storyboard */,
+				6332F5AB1B2F168900785370 /* Info.plist */,
+				6332F5A31B2F168900785370 /* Destiny_Status_Monitor.xcdatamodeld */,
+			);
+			path = "Destiny Status Monitor";
+			sourceTree = "<group>";
+		};
+		6332F5B31B2F168900785370 /* Destiny Status MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				6332F5B41B2F168900785370 /* Destiny_Status_MonitorTests.swift */,
+				6332F5B61B2F168900785370 /* Info.plist */,
+			);
+			path = "Destiny Status MonitorTests";
+			sourceTree = "<group>";
+		};
+		6332F5BE1B2F168900785370 /* Destiny Status MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6332F5BF1B2F168900785370 /* Destiny_Status_MonitorUITests.swift */,
+				6332F5C11B2F168900785370 /* Info.plist */,
+			);
+			path = "Destiny Status MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6332F5981B2F168900785370 /* Destiny Status Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332F5C41B2F168900785370 /* Build configuration list for PBXNativeTarget "Destiny Status Monitor" */;
+			buildPhases = (
+				6332F5951B2F168900785370 /* Sources */,
+				6332F5961B2F168900785370 /* Frameworks */,
+				6332F5971B2F168900785370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Destiny Status Monitor";
+			productName = "Destiny Status Monitor";
+			productReference = 6332F5991B2F168900785370 /* Destiny Status Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6332F5AF1B2F168900785370 /* Destiny Status MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332F5C71B2F168900785370 /* Build configuration list for PBXNativeTarget "Destiny Status MonitorTests" */;
+			buildPhases = (
+				6332F5AC1B2F168900785370 /* Sources */,
+				6332F5AD1B2F168900785370 /* Frameworks */,
+				6332F5AE1B2F168900785370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6332F5B21B2F168900785370 /* PBXTargetDependency */,
+			);
+			name = "Destiny Status MonitorTests";
+			productName = "Destiny Status MonitorTests";
+			productReference = 6332F5B01B2F168900785370 /* Destiny Status MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6332F5BA1B2F168900785370 /* Destiny Status MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332F5CA1B2F168900785370 /* Build configuration list for PBXNativeTarget "Destiny Status MonitorUITests" */;
+			buildPhases = (
+				6332F5B71B2F168900785370 /* Sources */,
+				6332F5B81B2F168900785370 /* Frameworks */,
+				6332F5B91B2F168900785370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6332F5BD1B2F168900785370 /* PBXTargetDependency */,
+			);
+			name = "Destiny Status MonitorUITests";
+			productName = "Destiny Status MonitorUITests";
+			productReference = 6332F5BB1B2F168900785370 /* Destiny Status MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6332F5911B2F168900785370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chad Cardella";
+				TargetAttributes = {
+					6332F5981B2F168900785370 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6332F5AF1B2F168900785370 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6332F5981B2F168900785370;
+					};
+					6332F5BA1B2F168900785370 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6332F5981B2F168900785370;
+					};
+				};
+			};
+			buildConfigurationList = 6332F5941B2F168900785370 /* Build configuration list for PBXProject "Destiny Status Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6332F5901B2F168900785370;
+			productRefGroup = 6332F59A1B2F168900785370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6332F5981B2F168900785370 /* Destiny Status Monitor */,
+				6332F5AF1B2F168900785370 /* Destiny Status MonitorTests */,
+				6332F5BA1B2F168900785370 /* Destiny Status MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6332F5971B2F168900785370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332F5AA1B2F168900785370 /* LaunchScreen.storyboard in Resources */,
+				6332F5A71B2F168900785370 /* Assets.xcassets in Resources */,
+				6332F5A21B2F168900785370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332F5AE1B2F168900785370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332F5B91B2F168900785370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6332F5951B2F168900785370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332F59F1B2F168900785370 /* ViewController.swift in Sources */,
+				6332F5A51B2F168900785370 /* Destiny_Status_Monitor.xcdatamodeld in Sources */,
+				6332F59D1B2F168900785370 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332F5AC1B2F168900785370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332F5B51B2F168900785370 /* Destiny_Status_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332F5B71B2F168900785370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332F5C01B2F168900785370 /* Destiny_Status_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6332F5B21B2F168900785370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6332F5981B2F168900785370 /* Destiny Status Monitor */;
+			targetProxy = 6332F5B11B2F168900785370 /* PBXContainerItemProxy */;
+		};
+		6332F5BD1B2F168900785370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6332F5981B2F168900785370 /* Destiny Status Monitor */;
+			targetProxy = 6332F5BC1B2F168900785370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6332F5A01B2F168900785370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6332F5A11B2F168900785370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6332F5A81B2F168900785370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6332F5A91B2F168900785370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6332F5C21B2F168900785370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6332F5C31B2F168900785370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6332F5C51B2F168900785370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Destiny Status Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chadec.Destiny-Status-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6332F5C61B2F168900785370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Destiny Status Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chadec.Destiny-Status-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6332F5C81B2F168900785370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Destiny Status MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chadec.Destiny-Status-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destiny Status Monitor.app/Destiny Status Monitor";
+			};
+			name = Debug;
+		};
+		6332F5C91B2F168900785370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Destiny Status MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chadec.Destiny-Status-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destiny Status Monitor.app/Destiny Status Monitor";
+			};
+			name = Release;
+		};
+		6332F5CB1B2F168900785370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Destiny Status MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chadec.Destiny-Status-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Destiny Status Monitor";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6332F5CC1B2F168900785370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Destiny Status MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chadec.Destiny-Status-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Destiny Status Monitor";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6332F5941B2F168900785370 /* Build configuration list for PBXProject "Destiny Status Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332F5C21B2F168900785370 /* Debug */,
+				6332F5C31B2F168900785370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6332F5C41B2F168900785370 /* Build configuration list for PBXNativeTarget "Destiny Status Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332F5C51B2F168900785370 /* Debug */,
+				6332F5C61B2F168900785370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6332F5C71B2F168900785370 /* Build configuration list for PBXNativeTarget "Destiny Status MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332F5C81B2F168900785370 /* Debug */,
+				6332F5C91B2F168900785370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6332F5CA1B2F168900785370 /* Build configuration list for PBXNativeTarget "Destiny Status MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332F5CB1B2F168900785370 /* Debug */,
+				6332F5CC1B2F168900785370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6332F5A31B2F168900785370 /* Destiny_Status_Monitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6332F5A41B2F168900785370 /* Destiny_Status_Monitor.xcdatamodel */,
+			);
+			currentVersion = 6332F5A41B2F168900785370 /* Destiny_Status_Monitor.xcdatamodel */;
+			path = Destiny_Status_Monitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6332F5911B2F168900785370 /* Project object */;
+}
